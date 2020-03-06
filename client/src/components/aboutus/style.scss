@@ -1,0 +1,25 @@
+.aboutpanel {
+	background-image: url(../../assets/img/nav_bg1.png);
+	text-align: center;
+	padding: 10px 150px;
+	height: 320px;
+	font-size: 0.8rem;
+	.aboutfont {
+		margin-top: 20px;
+		color: #638fc6;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: "Factoria Medium";
+		text-transform: uppercase;
+		line-height: 1;
+	}
+	.rowtop {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.aboutpanel {
+		height: 100%;
+	}
+}

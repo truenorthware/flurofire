@@ -1,0 +1,16 @@
+.footer-distributed {
+	background-color: black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font: bold 16px sans-serif;
+	img {
+		padding: 0.5rem;
+		width: 100px;
+	}
+	p {
+		color: white;
+	}
+}

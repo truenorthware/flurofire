@@ -1,0 +1,58 @@
+.contact_main {
+	background: white;
+	width: 100%;
+	margin: auto auto;
+	background-color: white;
+	border-radius: 30px;
+	top: 50px;
+	font-family: 'Avenir Next';
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.05);
+	.card {
+		.card-body {
+			flex: 1 1 auto;
+
+			padding: 1rem;
+			.form-header {
+				-webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+				box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+				color: #fff;
+				text-align: center;
+				margin-top: -2.5rem;
+				padding: 0.2rem;
+				-webkit-border-radius: .125rem;
+				border-radius: .125rem;
+			}
+			.md-form {
+				position: relative;
+				margin-top: 0.5rem;
+				margin-bottom: 0.5rem;
+				.prefix {
+					top: 1rem;
+					font-size: 1.3rem;
+				}
+			}
+			.text-center {
+				margin-top: 1rem;
+			}
+		}
+	}
+
+	.btn-floating {
+		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+		width: 47px;
+		height: 47px;
+		position: relative;
+		z-index: 1;
+		vertical-align: middle;
+		display: inline-block;
+		overflow: hidden;
+		transition: all .2s ease-in-out;
+		margin: 10px;
+		border-radius: 50%;
+		padding: 0;
+		cursor: pointer;
+	}
+	.btn {
+		padding: 0.44rem 2.14rem;
+	}
+}

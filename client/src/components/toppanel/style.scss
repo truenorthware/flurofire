@@ -1,0 +1,58 @@
+.toolbar {
+	// background: linear-gradient(0deg, #ffffff, lightgrey) !important;
+	background-image: url(../../assets/img/nav_bg1.png);
+	// background-size: 100% 100%;
+	// -webkit-box-shadow: 0 5px 6px -6px black;
+	// -moz-box-shadow: 0 5px 6px -6px black;
+	// box-shadow: 0 5px 6px -6px black;
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	//opacity: 100%;
+	.toolbar_navigation {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		padding: 0 2rem;
+		.toolbar_logo {
+			position: fixed;
+			width: 70px;
+			img {
+				width: 100%;
+			}
+		}
+		.toolbar_navigation_items {
+			list-style: none;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			display: flex;
+			font-size: 30px;
+			color: black;
+			font-weight: bold;
+			padding: 0 2rem;
+			color: #638fc6;
+			font-size: 30px;
+			font-weight: bold;
+			font-family: "Factoria Medium";
+			text-transform: uppercase;
+			line-height: 1;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.toolbar {
+		.toolbar_navigation {
+			.toolbar_logo {
+				position: relative;
+			}
+			.toolbar_navigation_items {
+				display: block;
+				font-size: 20px;
+			}
+		}
+	}
+}
