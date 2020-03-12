@@ -31,7 +31,6 @@ app.post('/api/form', function(req, res) {
 		subject: req.body.subject,
 		text: '<' + req.body.email + '> ' + req.body.name + ' sent ' + req.body.message
 	};
-	console.log(mailOptions);
 	transporter.sendMail(mailOptions, function(error, info) {
 		if (error) {
 			console.log(error);
